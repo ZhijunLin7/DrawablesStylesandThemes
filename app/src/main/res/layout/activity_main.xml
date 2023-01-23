@@ -38,11 +38,12 @@
 
        <ImageButton
            android:id="@+id/team1plus"
+           style="@style/PlusButtons"
            android:layout_width="70dp"
            android:layout_height="70dp"
-           android:src="@drawable/ic_plus"
            android:layout_alignParentRight="true"
-          style="@style/PlusButtons"/>
+           android:layout_centerInParent="true"
+           />
 
    </RelativeLayout>
     <RelativeLayout
@@ -79,7 +80,7 @@
             android:layout_height="70dp"
             android:layout_alignParentRight="true"
             android:layout_centerInParent="true"
-            style="@style/MinusButtons"/>
+            style="@style/PlusButtons"/>
 
     </RelativeLayout>
 </LinearLayout>
